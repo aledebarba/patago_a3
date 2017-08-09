@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defaultpadding">32dp</dimen>
+    <dimen name="txtbig">24sp</dimen>
+    <dimen name="txtmedium">18sp</dimen>
+</resources>

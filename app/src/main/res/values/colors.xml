@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#80ccea</color>
+    <color name="colorPrimaryDark">#1e4b66</color>
+    <color name="colorAccent">#ff8c00</color>
+
+    <!-- Cores do Patago -->
+    <color name="patagoAzulFundo">#c4e3fe</color>
+
+        <!-- Textos -->
+        <color name="patagoTextoBotaoOutros">#5c5c5c</color>
+        <color name="patagoTextoBotaoDestaque">#FF5C5C5C</color>
+        <color name="patagoTextoBotaoCancelar">#a21709</color>
+        <color name="patagoTextBlack">#000000</color>
+        <color name="patagoTextHint">#555555</color>
+
+    <!-- Cartões -->
+        <color name="patagoCartao1">#99ffff</color>
+        <color name="patagoCartao2">#00ffff</color>
+        <color name="patagoCartao3">#99ffcc</color>
+        <color name="patagoCartao4">#00ff33</color>
+        <color name="patagoCartao5">#ffff99</color>
+        <color name="patagoCartao6">#ffff00</color>
+        <color name="patagoCartao7">#ffcc99</color>
+        <color name="patagoCartao8">#ff9966</color>
+
+        <!-- Tabs -->
+        <color name="patagoTabText">#000000</color>
+        <color name="patagoTabBackGround">#ffffff</color>
+
+    <!-- Conjuntos de botões -->
+    <color name="patagoButtonsBackground">#c4c4c4</color>
+
+
+
+</resources>
