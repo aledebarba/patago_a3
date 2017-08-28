@@ -34,7 +34,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/patagoTextBlack"/>
 
     <EditText
         android:id="@+id/etPass"
@@ -49,7 +50,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         android:hint="@string/password_hint"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/patagoTextBlack"/>
 
 
     <TextView
@@ -62,6 +64,7 @@
         android:text="@string/txtRegister"
         android:textAlignment="center"
         android:textColor="@color/patagoTextBlack"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btLogin" />
@@ -110,7 +113,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="parent"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="100dp"
 
         />
 

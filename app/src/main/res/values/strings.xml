@@ -1,11 +1,18 @@
 <resources>
     <string name="app_name">Patago</string>
     <string name="btLetsGo">Let\'s go!</string>
-    <string name="PermissionText">To properly work in some versions of Android, Patago must require some authorizations. This is part of the Android system, it will ask you and explain each one. Please authorize the requests and we can continue with Patago.</string>
+    <string name="PermissionText">To properly work in some versions of Android, Patago must require authorizations. This is part of the Android system, it will ask you and explain each one. Please authorize the requests and we can continue with Patago.</string>
     <string name="WelcomeText">Hello and welcome to Patago!</string>
     <string name="txtlogin">Login</string>
     <string name="login_name">Login Name</string>
     <string name="password_hint">Password</string>
     <string name="txtRegister">If you don\'t have an account,\nor wants to create a different user\ntouch here.</string>
     <string name="bt_login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ohnoStr">Oh no!\nPatago needs your permissions to go.\nWhithout that the app will not work.\nThanks anyway.</string>
 </resources>

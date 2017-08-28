@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Patago</string>
+    <string name="PermissionText">Para funcionar corretamente em algumas versões do Android, Patago precisa requisitar autorização. Isto é parte do sistema Android, ele vai solicitar as informações e explicar cada uma. Por favor, autorize tudo para continuar o Patago.</string>
+    <string name="WelcomeText">Seja muito bem vindo ao Patago!]</string>
+    <string name="action_settings">Configurações</string>
+    <string name="btLetsGo">Vamos!</string>
+    <string name="bt_login">Entrar</string>
+    <string name="login_name">Nome de acesso.</string>
+    <string name="navigation_drawer_close">Fechar esse menu.</string>
+    <string name="navigation_drawer_open">Abrir opções.</string>
+    <string name="ohnoStr">Ah não! O Patago precisa de suas permissões para continuar.  Sem isso o aplicativo não vai continuar. Obrigado mesmo assim.</string>
+    <string name="password_hint">Senha</string>
+    <string name="txtRegister">Se você não tem uma conta, ou deseja criar um usuário diferente, toque aqui.</string>
+    <string name="txtlogin">Entrar</string>
+</resources>
