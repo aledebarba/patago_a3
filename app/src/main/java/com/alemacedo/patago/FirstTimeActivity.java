@@ -100,7 +100,7 @@ public class FirstTimeActivity extends AppCompatActivity {
                 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
             Toast.makeText(this, "Permission granted", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(this, DeniedPermission.class);
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
             this.finish();
 
