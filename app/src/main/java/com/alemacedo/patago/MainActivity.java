@@ -3,6 +3,8 @@ package com.alemacedo.patago;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,21 +18,37 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private ViewPager viewPager;
+    private DrawerLayout drawer;
+    private TabLayout tabLayout;
+    private String[] pageTitle = {String.valueOf(R.string.tabRotinas), String.valueOf(R.string.tabMinhasRotinas), String.valueOf(R.string.tabMeuDia)};
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        viewPager = (ViewPager)findViewById(R.id.view_pager);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
+        // tablayout setup
+        tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        for (int i = 0; i < 3; i++) {
+            tabLayout.addTab(tabLayout.newTab().setText(pageTitle[i]));
+        }
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -40,6 +58,14 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+        // cria o adapter para viewpage
+
+        //set viewpager adapter
+        //ViewPagerAdapter pagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
+        //viewPager.setAdapter(pagerAdapter);
+
     }
 
     @Override

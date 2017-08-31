@@ -8,11 +8,24 @@
     <string name="password_hint">Password</string>
     <string name="txtRegister">If you don\'t have an account,\nor wants to create a different user\ntouch here.</string>
     <string name="bt_login">Login</string>
-    <string name="title_activity_main">MainActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
     <string name="ohnoStr">Oh no!\nPatago needs your permissions to go.\nWhithout that the app will not work.\nThanks anyway.</string>
+    <string name="navpanic">Panic!</string>
+    <string name="navtrustedfriends">Trusted Friend</string>
+    <string name="navsettings">Settings</string>
+    <string name="navmyinfo">My info</string>
+    <string name="navabout">About</string>
+    <string name="navshare">Share</string>
+    <string name="navsend">Send</string>
+    <string name="tabMeuDia">My Day</string>
+    <string name="tabMinhasRotinas">My Routines</string>
+    <string name="tabRotinas">Routines</string>
+    <string name="title_activity_main">Patago</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
