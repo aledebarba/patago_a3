@@ -13,6 +13,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="nav_about_txt">About</string>
     <string name="ohnoStr">Oh no!\nPatago needs your permissions to go.\nWhithout that the app will not work.\nThanks anyway.</string>
     <string name="navpanic">Panic!</string>
     <string name="navtrustedfriends">Trusted Friend</string>
@@ -26,6 +27,34 @@
     <string name="tabRotinas">Routines</string>
     <string name="title_activity_main">Patago</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Patago is an application originally created as an academic work.
+        Its purpose is to help people with attention problems to perform tasks by breaking routines into minimal units, witch can be comfortably done.
+        This is one of the approaches to deal with symptoms of conditions such as
+        Attention Deficit Hyperactivity Disorder (ADHD),
+        Chronic Procrastination, Anxiety, and Obsessive Compulsive Disorder.
+        It can also simply help you accomplish tasks. =)\n\n
+       Author: Alexandre CMC Souza\n
+       Discipline: Android Application Development\n
+       Under the guidance of Professor Heider Pinheiros Lopes\n
+       FIAP\n
+       Course: MBA IN DEVELOPMENT OF APPLICATIONS AND GAMES FOR MOBILE DEVICES - INTERNET OF THINGS
+    </string>
+    <string name="navRoutines">About</string>
+    <string name="txt_breath">~ breath ~</string>
+
+    <string name="Trusted_Friend_Title">Here you can place a call to your trusted friend.</string>
+    <string name="Trusted_Friend_Text">Remember, the trusted friend could or could not be available by the time.\n
+        Search for a nice quiet area, take a breath and prepare to explain your situtation.\n
+        To make your call, just push the button bellow.</string>
+    <string name="call_trusted_friend">Call Trusted Friend</string>
+    <string name="drawerInfoTag">Extra options</string>
+    <string name="navExit">Exit</string>
+    <string name="navShare">Share</string>
+    <string name="navHome">Routines</string>
+    <string name="tab1">Search Routines</string>
+    <string name="tab2">My Routines</string>
+    <string name="tab3">My Day</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="launch_routines">Launch routines</string>
 </resources>
