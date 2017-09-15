@@ -14,7 +14,7 @@
     <string name="txtRegister">Se você não tem uma conta, ou deseja criar um usuário diferente, toque aqui.</string>
     <string name="txtlogin">Entrar</string>
     <string name="navabout">Sobre</string>
-    <string name="navmyinfo">Minhas infos</string>
+    <string name="navmyinfo">Preferências</string>
     <string name="navpanic">Pânico!</string>
     <string name="navsend">Enviar</string>
     <string name="navsettings">Configurações</string>

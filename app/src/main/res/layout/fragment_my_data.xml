@@ -5,9 +5,94 @@
     tools:context="com.alemacedo.patago.MyData">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/defaultpadding">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="Preferences"
+                android:textAlignment="textStart"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Your name or nickname"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name or nickname"
+                android:inputType="phone"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Type a trusted friend name and phone number to call when you need assistance."
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:ems="10"
+                android:hint="Trusted friend name "
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:ems="10"
+                android:hint="Trusted friend number "
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Type a trusted friend mobile number to send a SMS messagem when you need assistance."
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:ems="10"
+                android:hint="Trusted friend mobile number "
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Preferences"
+                android:layout_margin="@dimen/defaultpadding"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

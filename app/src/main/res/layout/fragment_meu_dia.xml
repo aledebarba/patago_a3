@@ -5,56 +5,20 @@
     android:layout_height="match_parent"
     tools:context="com.alemacedo.patago.MeuDia">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-
-            android:id="@+id/linearLayout">
-
-
-            <Button
-                android:id="@+id/bt_run"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="@color/patagoAzulFundo"
-                android:drawableStart="@drawable/ic_patago"
-                android:padding="@dimen/defaultpadding"
-                android:text="@string/launch_routines"
-                android:textAlignment="center"
-                android:textAllCaps="false"
-                android:textSize="@dimen/txtbig"
-                android:textStyle="normal" />
-
-        </LinearLayout>
-
     <ScrollView
-        android:layout_alignParentTop="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/linearLayout">
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentTop="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/recyclerview_mockup" />
         </LinearLayout>
 
 
     </ScrollView>
-    </RelativeLayout>
 
 </FrameLayout>
