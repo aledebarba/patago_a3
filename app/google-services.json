@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "919544049369",
+    "firebase_url": "https://patago-project.firebaseio.com",
+    "project_id": "patago-project",
+    "storage_bucket": "patago-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919544049369:android:01e9266debf7fb42",
+        "android_client_info": {
+          "package_name": "com.alemacedo.patago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919544049369-46c3a3r9jsa3cnrkbqrsr6cgegpfu7q5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alemacedo.patago",
+            "certificate_hash": "691f5041c18a81e82604a379f66579872e829f8c"
+          }
+        },
+        {
+          "client_id": "919544049369-ncruo64sa932ha9dfinc5g3sauqqnbb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7eUpcQyzLxoItA1vlRBdE25y3xAhxE7M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919544049369-ncruo64sa932ha9dfinc5g3sauqqnbb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,5 +4,32 @@
     android:layout_height="match_parent"
     tools:context="com.alemacedo.patago.MinhasRotinas">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clipToPadding="false">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/defaultpadding"
+                android:text="Actually this is a place of the interface to show all users routines, either by choosing on internet or creating it´s own. Not implemented yet"
+                android:textSize="@dimen/txtbig"
+                />
+        </LinearLayout>
+
+
+
+    </ScrollView>
 </FrameLayout>

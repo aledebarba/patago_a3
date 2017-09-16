@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/navHome" />
+
+
+
+        <item
+            android:id="@+id/nav_panic"
+            android:icon="@drawable/ic_panic_black_24dp"
+            android:title="@string/navpanic" />
+        <item
+            android:id="@+id/nav_trusted"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="@string/navtrustedfriends" />
+
+        <item
+            android:id="@+id/nav_myinfo"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/navmyinfo" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/navsend" />
+
+        <item
+            android:id="@+id/drawer_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/navShare" />
+
+        <item
+            android:id="@+id/drawer_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/navExit" />
+
+        <item
+        android:id="@+id/nav_rotinas"
+        android:icon="@drawable/ic_patago"
+        android:title="@string/navRoutines" />
+    </group>
+
+</menu>

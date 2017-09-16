@@ -1,0 +1,239 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/sw_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/footer"
+        android:background="@color/patagoTab"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="12px"
+                android:ems="10"
+                android:hint="Título da Rotina"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="12px"
+                android:ems="10"
+                android:hint="Descrição da Rotina"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Routine steps" />
+
+            <EditText
+                android:id="@+id/etPassos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint='Digite os passos da sua rotina.\nToque no Botão "Salvar Rotinas" para gravar.'
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:padding="0dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Choose Color" />
+
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rgColors"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbColor1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="0.25"
+                    android:background="@color/patagoCartao1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text=""
+                    android:textAlignment="center" />
+
+                <RadioButton
+                    android:id="@+id/rbColor4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="0.25"
+                    android:background="@color/patagoCartao5"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text=""
+                    android:textAlignment="center" />
+
+                <RadioButton
+                    android:id="@+id/rbColor3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="0.25"
+                    android:background="@color/patagoCartao3"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text=""
+                    android:textAlignment="center" />
+
+                <RadioButton
+                    android:id="@+id/rbColor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="0.25"
+                    android:background="@color/patagoCartao7"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text=""
+                    android:textAlignment="center" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Schedulle" />
+
+            <EditText
+                android:id="@+id/etTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/etDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/patagoAzulFundo"
+            android:drawableLeft="@android:drawable/ic_menu_save"
+            android:drawablePadding="-50dp"
+            android:elevation="2dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Salvar Rotina"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btRun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/patagoAzulFundo"
+            android:drawableLeft="@drawable/ic_patago"
+            android:drawablePadding="-50dp"
+            android:elevation="2dp"
+            android:onClick="btRunClick"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Executar Rotina"
+            android:textAlignment="center"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#FFDDDD"
+            android:drawableLeft="@android:drawable/ic_delete"
+            android:drawablePadding="-50dp"
+            android:elevation="2dp"
+            android:onClick="btDeleteClick"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Apagar Rotina"
+            android:textAlignment="center"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

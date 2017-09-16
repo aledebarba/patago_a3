@@ -30,7 +30,7 @@
 
     <!-- Conjuntos de botões -->
     <color name="patagoButtonsBackground">#c4c4c4</color>
-    <color name="patagoTab">#afdef1</color>
+    <color name="patagoTab">#eff9fd</color>
 
 
 </resources>

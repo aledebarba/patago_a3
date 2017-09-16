@@ -48,25 +48,16 @@ public class MainActivity extends AppCompatActivity {
     NavigationView mNavigationView;
     FragmentManager mFragmentManager;
     FragmentTransaction mFragmentTransaction;
-    // Não sei onde isso é usado, daí comentei //private InterstitialAd interstitial;
-    // Não sei onde isso é usado, daí comentei //public Timer AdTimer;
 
-    // Retrofit: RecyclerView, ArrayList, BASE_URL, DataAdapter
 
     SharedPreferences preferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-        setContentView(R.layout.activity_main);
+       setContentView(R.layout.activity_main);
 
         preferences = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-
-
-
-
 
         // LIDA COM NAVDRAWER ==================================================================================
 
@@ -114,8 +105,9 @@ public class MainActivity extends AppCompatActivity {
                         sAux = sAux + "https://play.google.com/store/apps/details?id=com.ted.android\n\n";
                         i.putExtra(Intent.EXTRA_TEXT, sAux);
                         startActivity(Intent.createChooser(i, "Share Patago!"));
-                    } catch(Exception e) {
-                        //e.toString();
+                    } catch(Exception e)
+                    {
+                        Log.e("ALEMACEDO : ", e.toString());
                     }
                 }
 
@@ -133,16 +125,6 @@ public class MainActivity extends AppCompatActivity {
                      FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
                      fragmentTransaction.replace(R.id.frame_container, new MyData()).commit();
                 }
-                /* if (menuItem.getItemId() == R.id.drawer_youtube) {
-                    Toast.makeText(MainActivity.this,
-                            "Replace with your own function", Toast.LENGTH_LONG).show();
-                }
-
-                if (menuItem.getItemId() == R.id.drawer_exit) {
-                    Toast.makeText(MainActivity.this,
-                            "Replace with your own function", Toast.LENGTH_LONG).show();
-                } */
-
                 return false;
             }
 
@@ -163,7 +145,9 @@ public class MainActivity extends AppCompatActivity {
     // Lida com o botão FAZER CHAMADA do fragment Amigo de Confiança ================================
 
     public void btCallClick (View v) {
+        // TODO: dados virão de shared preferences
         Uri number = Uri.parse("tel:11985527281");
+
         Intent callIntent = new Intent(Intent.ACTION_DIAL, number);
         callIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(callIntent);
@@ -173,9 +157,8 @@ public class MainActivity extends AppCompatActivity {
     // Trata o botão de voltar do Android para voltar pra tela inicial e não sair do app ===================
     @Override
     public void onBackPressed() {
-
-        FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.frame_container, new TabFragment()).commit();
+        // NÃO FAZ NADA
+        // MAS AINDA É MELHOR QUE ANTES... :)
 
     }
 }
